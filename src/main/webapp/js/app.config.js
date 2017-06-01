@@ -7,6 +7,9 @@ app.config(function($routeProvider) {
     .when("/events", {
         template : "<iframe src='html/Events.html' style='border:none' width=100% scrolling='no' onload='resizeIframe(this)'></iframe>"
     })
+    .when("/contact", {
+            template : "<iframe src='html/contact-us.html' style='border:none' width=100% scrolling='no' onload='resizeIframe(this)'></iframe>"
+        })
 	.otherwise("/home");
 });
 

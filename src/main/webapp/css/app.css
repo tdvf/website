@@ -5,3 +5,11 @@
 body{
 	background-color:#ABCDEF;
 }
+
+table{
+    background-color:#ABCDEF;
+}
+
+.table-fit {
+    width: 1px;
+}
